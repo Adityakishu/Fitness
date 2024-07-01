@@ -1,0 +1,38 @@
+.exercise-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .exercise {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-video .video-container,
+  .right-video .description-container {
+    order: 1;
+  }
+  
+  .left-video .description-container,
+  .right-video .video-container {
+    order: 2;
+  }
+  
+  .video-container {
+    flex: 1;
+  }
+  
+  .description-container {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
